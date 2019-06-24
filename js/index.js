@@ -11,6 +11,7 @@ document.addEventListener("keydown", e => {
   navBackground.style.background = getRandomColor();
 });
 
+//button
 const button = document.querySelectorAll(".btn");
 button[0].addEventListener("click", event => {
   button[0].style.backgroundColor = "red";
